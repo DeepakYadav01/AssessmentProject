@@ -7,6 +7,7 @@ body{
     box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
     background-color:  rgb(80, 65, 149);
+    background-image: url("particle8.gif");
 }
 .logo{
    
@@ -34,7 +35,7 @@ body{
 }
 
 li .ancr{
-    color:black;    
+    color:rgb(176, 207, 34)    
 }
 
 li a{
@@ -47,38 +48,12 @@ li a{
    
 }
 li a:hover{
-    color: #7e4a7c;
-}
-
-
-.btn4{
-    padding:20px;
-    margin: 20px;
-    border: 0px solid transparent;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    background-color: rgb(202, 202, 84);
-
-}
-
-.btn4:hover{
-    background-color: rgb(2, 173, 179);
-    color: white;
-    transform: scale(1.1);
-    transition:0.5s ease;
-
-}
-footer{
-  
-    background-color: rgb(80, 65, 149);
-    padding: 20px;
-    margin: 0px;
-     
+    color: rgb(176, 207, 34);
 }
 
 section{
-    padding: 20px;
-    margin: 20px;
+    
+    margin: 0px;
     padding-bottom: 110px;
 }
 h1{
@@ -91,7 +66,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     padding: 10px;
-    margin-left:300px ;
+    margin-left:350px ;
     background-color: rgb(28, 146, 101);
     border-radius: 10px;
     
@@ -100,7 +75,7 @@ h1{
     float: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    margin-right: 300px;
+    margin-right: 350px;
     padding: 10px;
     background-color: rgb(28, 146, 101);
     border-radius: 10px;
@@ -125,7 +100,39 @@ transition: 0.5s;
 }
 img{
     
-    height:60px;
-    width: 60px;
+    height:55px;
+    width: 55px;
     border-radius: 10px;
+    
 }
+img:hover{
+    transform: scale(1.1);
+    transition:0.4s;
+}
+
+.btn4{
+    padding:20px;
+    margin: 20px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(202, 202, 84);
+
+}
+
+.btn4:hover{
+    background-color: rgb(2, 173, 179);
+    color: white;
+    transform: scale(1.1);
+    transition:0.5s ease;
+
+}
+footer{
+  
+    background-color: rgb(80, 65, 149);
+    padding: 20px;
+    margin: 0px;
+    background-image: url("particle8.gif");
+     
+}
+

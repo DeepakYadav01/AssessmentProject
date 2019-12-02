@@ -1,29 +1,15 @@
 body{
     padding:10px;
 }
-.parallax {
-    background-image: url("bgimg3.jpg");
-    min-height: 200px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
-  }
-  .parallax {
-    background-image: url("bgimg3.jpg");
-    min-height: 200px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
-  }
+
+  
 .start{
     border : 1px solid transparent;
     box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
     background-color:  rgb(87, 173, 173);
+    background-image: url("particle6.gif");
+
 
 }
 .logo{
@@ -69,11 +55,16 @@ li a:hover{
 }
 .div1{
     padding: 0px;
+    background-color: white;
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
     font-size: 50px;
+    text-align: center;
+}
+h3{
+    text-align: center;
 }
 .bgclr{
     background-color: rgb(251, 198, 118);
@@ -98,8 +89,9 @@ h1{
 footer{
   
     background-color: rgb(87, 173, 173);
-    padding: 20px;
+    padding: 30px;
     margin: 0px;
+    background-image: url("particle6.gif");
      
 
 }

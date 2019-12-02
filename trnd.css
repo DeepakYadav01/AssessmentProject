@@ -2,7 +2,7 @@ body{
     padding:10px
 }
 .parallax {
-  background-image: url("bgimg.png");
+    background-image: url("bgimg.png");
 
   min-height: 500px; 
 
@@ -10,25 +10,23 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  
 }
 
  
 .parallax2{
-    background-image: url("bgimg12.jpg");
-  
+    background-image: url("particle1.gif");
     min-height: 100px; 
-  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
+    
   }
 .start{
     border : 0px solid black;
     box-shadow: 5pxpx 10px 10px 10px rgba(0, 0, 0, 0.2);
-    padding: 50px;
+    padding: 40px;
     padding-bottom: 0px;
 
 }
@@ -81,10 +79,10 @@ li a:hover{
 }
 table{
     margin-top: 0px;
-    padding: 20px;
+    padding: 0px;
 }
 td{
-    border: 1px solid black;
+    background-image: url("particle1.gif");
 }
 .spc{
     padding: 20px;
@@ -93,12 +91,13 @@ td{
 .desc1{
     margin-left: 200px;
     font-size: 20px; 
+    color: greenyellow;
   
 }
 
 img{
-    padding: 10px;
-    box-shadow: 15px 16px 16px 15px rgba(0, 0, 0, 0.2);
+    padding:10px;
+    border:1px solid white;
 }
 img:hover{
     transform: scale(1.1); 

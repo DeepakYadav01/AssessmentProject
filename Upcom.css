@@ -9,18 +9,18 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
+  
   }
   
    
   .parallax2{
-      background-image: url("bgimg12.jpg");
+    background-image: url("particle.gif");
       min-height: 90px; 
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      opacity: 0.9;
+     
     }
   .start{
       border : 0px solid black;
@@ -78,6 +78,7 @@ body{
   table{
       margin-top: 0px;
       padding: 20px;
+      background-image: url("particle.gif");
   }
   td{
       border: 1px solid black;
@@ -89,11 +90,15 @@ body{
   .desc1{
       margin-left: 200px;
       font-size: 20px;   
+      color: yellow;
   }
   
   img{
       padding: 10px;
       box-shadow: 15px 16px 16px 15px rgba(0, 0, 0, 0.2);
+  }
+  img{
+      border: 1px solid white;
   }
   img:hover{
       transform: scale(1.1); 
