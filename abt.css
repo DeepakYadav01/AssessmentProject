@@ -1,0 +1,105 @@
+body{
+    padding:10px;
+}
+.parallax {
+    background-image: url("bgimg3.jpg");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
+  .parallax {
+    background-image: url("bgimg3.jpg");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
+.start{
+    border : 1px solid transparent;
+    box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    background-color:  rgb(87, 173, 173);
+
+}
+.logo{
+   
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120px;
+   color: #7e4a7c;
+}
+
+.tline{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.mnbar{
+    padding-top: 30px;
+}
+.mnbar ul .list {
+    
+   padding-right: 40px;
+   padding-top: 10px;
+   display:inline;
+   margin: 10px;
+   border-right: 1px solid #7e4a7c;
+}
+
+li .ancr{
+    color:#7e4a7c;    
+}
+
+li a{
+     
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+li a:hover{
+    color: #7e4a7c;
+}
+.div1{
+    padding: 0px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+.bgclr{
+    background-color: rgb(251, 198, 118);
+}
+.btn4{
+    padding:20px;
+    margin: 20px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(202, 202, 84);
+
+}
+
+.btn4:hover{
+    background-color: rgb(2, 173, 179);
+    color: white;
+    transform: scale(1.1);
+    transition:0.5s ease;
+
+}
+footer{
+  
+    background-color: rgb(87, 173, 173);
+    padding: 20px;
+    margin: 0px;
+     
+
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CinemaCrave</title>
+       <link rel="stylesheet" href="instyle.css">
+       
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <body>
+      
+       <div class="start">
+            <header class="hdr">
+                <div class="logo">
+                    CinemaCrave
+                  <div class="tline">
+                    A place where you can find all information about Movies 
+                  </div>
+                </div>
+            </header>
+
+          <div class="mnbar" >
+              <ul type="none">
+                <li class="list"><a class="ancr" href="#">Home</a></li>
+                <li class="list"><a class="ancr1" href="about.html">About</a></li>
+                <li class="list"><a  class="ancr1"href="contacts.html">Contacts</a></li>
+              </ul>
+          </div>
+       </div>
+        <div class="parallax"></div>
+            <div class="slider">
+               <img class="image"name="slide" src="img7.jpg" width="100%" height="100%">
+            </div>
+
+        </div>
+        <div class="parallax"></div>
+
+        <div class="parallax13">
+            <div class="cl1">
+              <img src="img4.jpg" height="48%" width="48%"> 
+                <span class="cl2">
+                  <h3>Trending Movies</h3>
+                  <center>
+                  <a href="trending.html"> <input class="btn1" type="button" value="View Trending Movies" ></a>
+                  </center>
+                </span>
+            
+            </div> 
+          </div>
+        <div class="parallax"></div>
+        <div class="parallax2">
+           <div class="cl1">
+                <img src="img5.jpg" height="50%" width="50%" > 
+                    <span class="cl3">
+                        <h3>Upcoming Movies</h3>
+                        <center>
+                            <a href="UC.html">  <input class="btn2" type="button" value="View Upcoming Movies" ></a>
+                    </center>
+                    </span>      
+            </div>
+       </div>
+       <div class="parallax"></div>
+            <div class="cl1">
+            
+                 <img src="img6.jpg" height="50%" width="50%" > 
+                 <span class="cl4">
+                   <h4>Top Rated Movies</h4>
+                   <center>
+                      <a href="TR.html"> <input class="btn3" type="button" value="View Top Rated Movies" ></a>
+                   </center>
+                 </span>       
+                 
+            </div>
+            
+        <br>
+        <br>
+
+        <script>
+            var i=0;
+            var time=4000;
+            var images=[];
+            images[0]="img.jpg";
+            images[1]="img1.jpg";
+            images[2]="img2.jpg";
+
+            setInterval("slides()",time);
+
+           function slides(){
+
+               document.slide.src=images[i];
+               i++;
+               if(i>2)
+               i=0;
+             }   
+
+           window.load=slides;       
+          
+        </script>
+
+      </div>
+      <div class="parallax"></div>
+      <div class="parallax3">
+        <footer>     
+            <center>
+               <a href="https://deepakyadav01.github.io/resume/"><input class="btn4" type="button" value="Click To See My Resume" ></a>
+            </center>
+        </footer>
+      </div>
+           
+     
+    </body>
+</html>

@@ -1,0 +1,131 @@
+body{
+    padding:10px;
+}
+
+.start{
+    border : 1px solid transparent;
+    box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    background-color:  rgb(80, 65, 149);
+}
+.logo{
+   
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120px;
+   color: rgb(176, 207, 34);
+}
+
+.tline{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.mnbar{
+    padding-top: 30px;
+}
+.mnbar ul .list {
+    
+   padding-right: 40px;
+   padding-top: 10px;
+   display:inline;
+   margin: 10px;
+   border-right: 1px solid #7e4a7c;
+}
+
+li .ancr{
+    color:black;    
+}
+
+li a{
+     
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+li a:hover{
+    color: #7e4a7c;
+}
+
+
+.btn4{
+    padding:20px;
+    margin: 20px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(202, 202, 84);
+
+}
+
+.btn4:hover{
+    background-color: rgb(2, 173, 179);
+    color: white;
+    transform: scale(1.1);
+    transition:0.5s ease;
+
+}
+footer{
+  
+    background-color: rgb(80, 65, 149);
+    padding: 20px;
+    margin: 0px;
+     
+}
+
+section{
+    padding: 20px;
+    margin: 20px;
+    padding-bottom: 110px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    color: rgb(77, 7, 77);
+}
+.cl1{
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-left:300px ;
+    background-color: rgb(28, 146, 101);
+    border-radius: 10px;
+    
+}
+.cl2{
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-right: 300px;
+    padding: 10px;
+    background-color: rgb(28, 146, 101);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.cl1:hover{
+    transform: scale(1.2);
+    color:rgb(70, 16, 58);
+    background-color: rgb(172, 172, 39) ;
+    transition: 0.5s;
+    }
+.cl2:hover{
+transform: scale(1.2);
+color:rgb(70, 16, 58);
+background-color: rgb(172, 172, 39) ;
+transition: 0.5s;
+}
+.cl3{
+    padding: 10px;
+    margin-top: 200px;
+  
+}
+img{
+    
+    height:60px;
+    width: 60px;
+    border-radius: 10px;
+}

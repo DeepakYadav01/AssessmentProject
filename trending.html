@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CinemaCrave</title>
+       <link rel="stylesheet" href="trnd.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    </head>
+
+    <body>
+        <div class="parallax">
+        <div class="start">
+            <header class="hdr">
+                <div class="logo">
+                    Trending Movies              
+                </div>
+            </header>
+          <div class="mnbar" >
+              <ul type="none">
+                <li class="list"><a class="ancr1" href="index.html">Home</a></li>
+                <li class="list"><a class="ancr1" href="about.html">About</a></li>
+                <li class="list"><a  class="ancr1"href="contacts.html">Contacts</a></li>
+              </ul>
+          </div>
+        </div>
+        </div>
+
+      <table border="0" cellspacing="2px" cellpadding="100px">
+          <tr>    
+            <td>
+                <center>
+                 <img id="img1"src="img4.jpg" height="400px" align="left"> 
+               </center>
+            </td>
+            <td>
+              <center>
+               <div class="spc">
+                  <span id="cl1" class="cl2" >   </span> <br> <br>           
+                  <span id="desc1" class="desc1"> </span>  <br><br>
+                  <span id="rating1" class="cl2">  </span>
+               </div>
+              </center>
+           </td>
+          </tr>
+    
+          <tr>
+            <td> 
+             <center>
+               <img id="img2"src="img4.jpg" height="400px" align="left"> 
+             </center>
+            </td>
+           <td>
+             <center>
+              <div class="spc">
+                <span id="cl2" class="cl2">   </span> <br> <br>           
+                <span id="desc2" class="desc1"> </span>  <br><br>
+                <span id="rating2" class="cl2">  </span>
+              </div>
+             </center>
+           </td>
+          </tr>
+
+          <tr>  
+           <td>
+            <center>
+              <img id="img3"src="img4.jpg" height="400px" align="left"> 
+            </center>
+           </td>
+           <td>
+            <center>
+              <div class="spc">
+                <span id="cl3" class="cl2">   </span> <br> <br>           
+                <span id="desc3" class="desc1"> </span>  <br><br>
+                <span id="rating3" class="cl2">  </span>
+              </div>
+           </center>
+           </td>
+          </tr>
+       </table>
+         <div class="parallax2">
+           <footer>     
+            <center>
+               <a href="https://deepakyadav01.github.io/resume/"><input class="btn4" type="button" value="Click To See My Resume" ></a>
+            </center>
+           </footer>
+         </div>
+
+        <script language="JavaScript" type="text/javascript" >
+   
+            var text="http://image.tmdb.org/t/p/w185/";
+            var settings = {
+    
+              "url": "https://api.themoviedb.org/3/trending/movie/day?api_key=58481cc5bf96cddc0debce52eb41da8f",
+              "method": "GET"
+              
+            }
+            
+            $.ajax(settings).done(function (response) {
+              console.log(response);
+
+
+              document.getElementById("img1").src=text+response .results[15].poster_path;
+              document.getElementById("cl1").innerHTML=response .results[15].title;
+              document.getElementById("desc1").innerHTML='<br/>'+response .results[15].overview;
+              document.getElementById("rating1").innerHTML="IMDb Rating: " +response .results[15].vote_average;
+            
+              document.getElementById("cl2").innerHTML=response .results[12].title;
+              document.getElementById("img2").src=text+response .results[12].poster_path;
+              document.getElementById("desc2").innerHTML='<br/>'+response .results[12].overview;
+              document.getElementById("rating2").innerHTML="IMDb Rating: " +response .results[12].vote_average;
+            
+            
+            
+            
+              document.getElementById("cl3").innerHTML=response .results[1].title;
+              document.getElementById("img3").src=text+response .results[1].poster_path;
+              document.getElementById("desc3").innerHTML='<br/>'+response .results[1].overview;
+              document.getElementById("rating3").innerHTML="IMDb Rating: " +response .results[1].vote_average;
+                 
+            });
+            
+            
+        </script>
+
+    </body>
+</html>
